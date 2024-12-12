@@ -1,0 +1,19 @@
+body{
+
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);;
+
+}
+
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+h1 {
+  margin: 20px 0;
+  color : black
+}

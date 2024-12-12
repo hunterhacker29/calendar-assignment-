@@ -1,0 +1,41 @@
+.day {
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .day .event {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 0.9em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .day:hover {
+    background-color: #e6f7ff;
+  }
+  
+  .day.active {
+    background-color: #cceeff; 
+  }
+  
+  .day span {
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 5px 0 0;
+  }
+  
+  li {
+    font-size: 0.8em;
+    color: #555;
+  }
+  
